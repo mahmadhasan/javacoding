@@ -18,6 +18,8 @@
  * What if we had two Employee Objects: ------------------------------------
  * Static Block Instance Block Constructor Block Constructor
  * 
+ * 
+ * 
  * Why didn't static block execute again: --------------------------------------
  * static Blocks belong to the class not to the object.The Employee class was
  * already loaded when the 1st object was created so the static block has
